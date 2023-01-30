@@ -1,0 +1,154 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-30T07:00:07.784Z",
+        "line": 4,
+        "name": "Retrieve API data from public PAI",
+        "description": "",
+        "id": "produce-api-data;retrieve-api-data-from-public-pai",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1480000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Perform an API request to produce a list of all dog breeds.",
+            "match": {
+              "location": "StepDefinitions.APITest.perform_an_api_request_to_produce_a_list_of_all_dog_breeds()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify retriever breed is within the list.",
+            "match": {
+              "location": "StepDefinitions.APITest.verify_retriever_breed_is_within_the_list()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 434000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify a list of sub-breeds for retriever.",
+            "match": {
+              "location": "StepDefinitions.APITest.verify_a_list_of_sub_breeds_for_retriever()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 423000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify you can retrieve a random image or link for the sub-breed golden",
+            "match": {
+              "location": "StepDefinitions.APITest.verify_you_can_retrieve_a_random_image_or_link_for_the_sub_breed_golden()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Produce API data",
+    "description": "",
+    "id": "produce-api-data",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/publicAPITest.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-30T07:00:10.297Z",
+        "line": 4,
+        "name": "Ensure that your users are added to the list.",
+        "description": "",
+        "id": "add-user-to-the-user-list-table;ensure-that-your-users-are-added-to-the-list.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4924000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to the web tables page",
+            "match": {
+              "location": "StepDefinitions.WebTest.navigate_to_the_web_tables_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate that you are on the User List Table",
+            "match": {
+              "location": "StepDefinitions.WebTest.validate_that_you_are_on_the_user_list_table()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Add user",
+            "match": {
+              "location": "StepDefinitions.WebTest.click_add_user()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38319000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Add users to the User List Table",
+            "match": {
+              "location": "StepDefinitions.WebTest.add_users_to_the_user_list_table()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 542000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Remove the users from the table",
+            "match": {
+              "location": "StepDefinitions.WebTest.remove_the_users_from_the_table()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add User to the User List Table",
+    "description": "",
+    "id": "add-user-to-the-user-list-table",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/webTest.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="46.629">
+<testcase classname="Produce API data" name="Retrieve API data from public PAI" time="2.502">
+<system-out><![CDATA[Given Perform an API request to produce a list of all dog breeds............passed
+Given Verify retriever breed is within the list.............................passed
+Given Verify a list of sub-breeds for retriever.............................passed
+Given Verify you can retrieve a random image or link for the sub-breed golden.passed
+]]></system-out>
+</testcase>
+<testcase classname="Add User to the User List Table" name="Ensure that your users are added to the list." time="43.96">
+<system-out><![CDATA[Given Navigate to the web tables page.......................................passed
+And Validate that you are on the User List Table............................passed
+And Click Add user..........................................................passed
+And Add users to the User List Table........................................passed
+Then Remove the users from the table........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
